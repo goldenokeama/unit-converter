@@ -1,0 +1,14 @@
+{
+  "name": "unit-converter",
+  "description": "an app that converts a number between metric and imperial units",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
