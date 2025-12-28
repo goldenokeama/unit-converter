@@ -1,7 +1,79 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
+html,
 body {
   margin: 0;
+  padding: 0;
+  font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: black;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 550px;
+  height: 729px;
+  background-color: #1f2937;
+}
+
+.top-container {
+  width: 550px;
+  height: 285px;
+  background: #6943ff;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding: 33px 50px;
+}
+
+.top-container .top-text {
+  font-size: 1.75rem;
+  line-height: 38px;
+
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.top-container .number-input {
+  width: 117px;
+  line-height: 83px;
+  background: transparent;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+
+  font-weight: 800;
+  font-size: 3.63rem;
+  line-height: 24.39px;
+  color: inherit;
+  text-align: center;
+  outline: none;
+
+  margin-bottom: 25px;
+}
+
+.top-container .btn-convert {
+  display: block;
+  outline: none;
+  width: 117px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 8px 16px;
+  line-height: 24px;
+  font-weight: 500px;
+
+  color: #3d3d3d;
 }
