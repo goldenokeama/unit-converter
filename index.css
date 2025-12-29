@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
   background-color: black;
   height: 100vh;
 
@@ -19,7 +20,8 @@ body {
 .container {
   width: 550px;
   height: 729px;
-  background-color: #1f2937;
+  background-color: #f4f4f4;
+  border-radius: 5px;
 }
 
 .top-container {
@@ -27,11 +29,13 @@ body {
   height: 285px;
   background: #6943ff;
   color: #ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-around; */
+
   padding: 33px 50px;
 }
 
@@ -76,4 +80,41 @@ body {
   font-weight: 500px;
 
   color: #3d3d3d;
+}
+
+.down-container {
+  height: 444px;
+  padding: 36px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.down-container .unit-section {
+  background: #ffffff;
+  width: 500px;
+  height: 108px;
+  border-radius: 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.down-container .unit-section h2 {
+  margin-bottom: 9px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 20px;
+  color: #5a537b;
+}
+
+.down-container .unit-section p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #353535;
 }
