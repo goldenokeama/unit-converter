@@ -10,9 +10,9 @@ const lengthTextParagraph = document.getElementById("length-text");
 const volumeTextParagraph = document.getElementById("volume-text");
 const massTextParagraph = document.getElementById("mass-text");
 
-convertBtn.addEventListener("click", convertUnit);
+convertBtn.addEventListener("click", convertUnitAndRender);
 
-function convertUnit() {
+function convertUnitAndRender() {
   const inputValue = Number(inputEl.value);
 
   const feetValue = (inputValue * 3.281).toFixed(3);
@@ -23,5 +23,10 @@ function convertUnit() {
   const litersValue = (inputValue / 0.264).toFixed(3);
   const kilogramValue = (inputValue / 2.204).toFixed(3);
 
+  // Rendering the converted units
   lengthTextParagraph.textContent = `${inputValue} meters = ${feetValue} feet | ${inputValue} feet = ${metersValue} meters`;
+
+  volumeTextParagraph.textContent = `${inputValue} liters = ${gallonValue} gallons | ${inputValue} gallons = ${litersValue} liters`;
+
+  massTextParagraph.textContent = `${inputValue} kilos = ${poundValue} pounds | ${inputValue} pounds = ${kilogramValue} kilos`;
 }
