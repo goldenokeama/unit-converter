@@ -4,15 +4,24 @@
 1 kilogram = 2.204 pound
 */
 const inputEl = document.getElementById("number-input");
-const convertBtn = document.getElementById("convert-btn");
+// const convertBtn = document.getElementById("convert-btn");
+const form = document.getElementById("form");
 
 const lengthTextParagraph = document.getElementById("length-text");
 const volumeTextParagraph = document.getElementById("volume-text");
 const massTextParagraph = document.getElementById("mass-text");
 
-convertBtn.addEventListener("click", convertUnitAndRender);
+form.addEventListener("submit", convertUnitAndRender);
 
-function convertUnitAndRender() {
+function convertUnitAndRender(event) {
+  event.preventDefault();
+
+  // Checking if input is empty or not a number
+  if (!inputEl.value || isNaN(inputEl.value)) {
+    alert("Please enter a valid number");
+    return;
+  }
+
   const inputValue = Number(inputEl.value);
 
   const feetValue = (inputValue * 3.281).toFixed(3);

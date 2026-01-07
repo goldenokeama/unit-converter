@@ -9,6 +9,8 @@ body {
   padding: 0;
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-align: center;
+  color: #ffffff;
+
   background-color: black;
   height: 100vh;
 
@@ -28,7 +30,7 @@ body {
   width: 550px;
   height: 285px;
   background: #6943ff;
-  color: #ffffff;
+
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 
@@ -64,6 +66,9 @@ body {
 
   margin-bottom: 25px;
 }
+.number-input::-webkit-input-placeholder {
+  color: #ffffff;
+}
 
 .top-container .btn-convert {
   display: block;
@@ -80,6 +85,15 @@ body {
   font-weight: 500px;
 
   color: #3d3d3d;
+}
+
+.top-container .btn-convert:hover {
+  background: #6943ff;
+  color: #ffffff;
+
+  font-weight: bold;
+  box-shadow: 0 0 25px #b295ff;
+  border: 1px dotted #b295ff;
 }
 
 .down-container {

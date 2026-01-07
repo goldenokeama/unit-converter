@@ -5,19 +5,17 @@
   </head>
   <body>
     <div class="container">
-      <div class="top-container">
+      <form class="top-container" id="form">
         <h1 class="top-text">Metric/Imperial Unit Conversion</h1>
         <input
           class="number-input"
-          type="text"
-          inputmode="numeric"
-          pattern="[0-9]*"
-          placeholder="10"
-          value="20"
+          type="number"
+          placeholder="20"
           id="number-input"
+          step="any"
         />
         <button class="btn-convert" id="convert-btn">Convert</button>
-      </div>
+      </form>
 
       <div class="down-container">
         <div class="unit-section">
