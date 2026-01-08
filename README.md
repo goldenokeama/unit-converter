@@ -36,12 +36,12 @@ A simple web application that converts numbers between **metric** and **imperial
 
 ## 📂 Project Structure
 
-unit-converter/
-│
-├── index.html # Markup
-├── index.css # Styles
-├── index.js # Conversion logic
-└── README.md # Project documentation
+| Files        | Purpose               |
+| :----------- | :-------------------- |
+| `index.html` | Markup                |
+| `index.css`  | Styles                |
+| `index.js`   | Conversion logic      |
+| `README.md`  | Project documentation |
 
 ---
 
