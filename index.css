@@ -67,7 +67,7 @@ body {
   margin-bottom: 25px;
 }
 .number-input::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #a1a1a1ff;
 }
 
 .top-container .btn-convert {

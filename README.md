@@ -4,6 +4,10 @@ A simple web application that converts numbers between **metric** and **imperial
 
 ---
 
+<img src="assets/screenshot.png" alt="Screenshot of the Unit Converter App UI" width="500px"/>
+
+---
+
 ## 📌 Features
 
 - Convert **meters ↔ feet**
