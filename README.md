@@ -4,7 +4,13 @@ A simple web application that converts numbers between **metric** and **imperial
 
 ---
 
-<img src="assets/screenshot.png" alt="Screenshot of the Unit Converter App UI" width="500px"/>
+## 🔗 Live Demo
+
+## [**Try the Unit Converter App here**](https://unit-converter-golden.netlify.app/)
+
+---
+
+<img src="assets/screenshot.png" alt="Screenshot of the Unit Converter App UI" width="500"/>
 
 ---
 
