@@ -6,7 +6,7 @@ A simple web application that converts numbers between **metric** and **imperial
 
 ## 🔗 Live Demo
 
-## [**Try the Unit Converter App here**](https://unit-converter-golden.netlify.app/)
+[**Try the Unit Converter App here**](https://unit-converter-golden.netlify.app/)
 
 ---
 
