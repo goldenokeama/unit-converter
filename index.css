@@ -12,23 +12,18 @@ body {
   color: #ffffff;
 
   background-color: black;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
-  width: 550px;
-  height: 729px;
+  width: 90%;
+  max-width: 550px;
+  margin: 0 auto;
+
   background-color: #f4f4f4;
   border-radius: 5px;
 }
 
 .top-container {
-  width: 550px;
-  height: 285px;
   background: #6943ff;
 
   border-top-left-radius: 5px;
@@ -38,7 +33,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding: 33px 50px;
+  padding: 33px 30px;
 }
 
 .top-container .top-text {
@@ -101,11 +96,10 @@ body {
 }
 
 .down-container {
-  height: 444px;
   padding: 36px 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 18px;
 
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -113,8 +107,9 @@ body {
 
 .down-container .unit-section {
   background: #ffffff;
-  width: 500px;
-  height: 108px;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-radius: 2px;
 
   display: flex;
